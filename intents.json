@@ -1,0 +1,275 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "context_set": ""
+        },
+        
+
+        {"tag": "cs_department",
+         "patterns": ["what are the departments of computer science", "tell me the departments in computers and information technology",
+                "what are the departments in cs", "computer science departments"],
+         "responses": ["the departments are: Computer Science, Information systems, Digital Media"],
+         "context_set": ""
+        },
+        {"tag": "en_department",
+         "patterns": ["what are the departments of engineering ", "tell me the departments in faculty of engineering & technology",
+                "what are the departments in engineering & technology", "engineering departments"],
+         "responses": ["the departments are: Architectural, Biomedical, Electrical, Mechanical, Petroleum, Structural"],
+         "context_set": ""
+        },
+        {"tag": "ph_department",
+         "patterns": ["what are the departments of pharmacy", "tell me the departments in faculty of pharmacy",
+                "what are the departments in pharmacy faculty", "pharmacy departments"],
+         "responses": ["the departments are: Microbiology, Pharma Chemistry, Pharma Technology, Clinical Pharmacy, Pharmacognosy, Pharmacology"],
+         "context_set": ""
+        },
+        {"tag": "oral_department",
+         "patterns": ["what are the departments of oral and dental", "tell me the departments in faculty of oral and dental medicine",
+                "what are the departments in oral", "what are the departments in dental", "oral and dental departments"],
+         "responses": ["the departments are: Oral Biology and Oral Pathology Department, Prosthodontics Department, Conservative Dentistry Department, Oral and Maxillofacial Surgery Department, Orthodontics and Pedodontics Department, Oral Medicine, Periodontology, Diagnosis and Oral Radiology Department, Supplementary General Sciences Department"],
+         "context_set": ""
+        },
+        {"tag": "bus_department",
+         "patterns": ["what are the departments of business", "tell me the departments in faculty of commerce and business administration",
+                "what are the departments in business faculty", "business departments"],
+         "responses": ["the departments are: Accounting, Marketing, Finance, HR Management, Management Information Systems"],
+         "context_set": ""
+        },
+        {"tag": "pol_department",
+         "patterns": ["what are the departments of political", "tell me the departments in faculty of economics and political Science",
+                "what are the departments in political faculty", "political departments", "economics and political departments"],
+         "responses": ["the departments are: Economics, Political science, Public administration, Political Mass Media"],
+         "context_set": ""
+        },
+        
+
+        {"tag": "fue_percent",
+         "patterns": [],
+         "responses": [],
+         "context_set": ""
+        },
+        {"tag": "cs_percent",
+         "patterns": ["i want to know the percentage of acceptance for computer science", "tell me about the percent to be accept in computer science", "about percent of faculty of computer sicence",
+                "about computer and information technology percentage"],
+         "responses": ["here is  the percentage of acceptance: 80%"],
+         "context_set": ""
+        },
+        {"tag": "en_percent",
+         "patterns": ["i want to know the percentage of acceptance for engineering", "tell me about the percent to be accept in engineering", "about percent of faculty of engineering",
+              "about engineering and technology percentage"],
+         "responses": ["here is  the percentage of acceptance: 85%"],
+         "context_set": ""
+        },
+        {"tag": "ph_percent",
+         "patterns": ["i want to know the percentage of acceptance for pharmacy", "tell me about the percent to be accept in pharmacy", "about percent of faculty of pharmacy",
+         "about pharmacy percentage"],
+         "responses": ["here is  the percentage of acceptance: 90%"],
+         "context_set": ""
+        },
+        {"tag": "oral_percent",
+         "patterns": ["i want to know the percentage of acceptance for oral and dental medicine", "tell me about the percent to be accept in oral and dental", "about percent of faculty of oral and dental medicine",
+         "about oral and dental percentage"],
+         "responses": ["here is  the percentage of acceptance: 95%"],
+         "context_set": ""
+        },
+        {"tag": "bus_percent",
+         "patterns": ["i want to know the percentage of acceptance for business", "tell me about the percent to be accept in commerce and business", "about percent of faculty of commerce and business administration",
+         "about business percentage"],
+         "responses": ["here is  the percentage of acceptance: 75%"],
+         "context_set": ""
+        },
+        {"tag": "pol_percent",
+         "patterns": ["i want to know the percentage of acceptance for political", "tell me about the percent to be accept in political Science", "about percent of faculty of economics & political Science",
+         "about economics and political percentage"],
+         "responses": ["here is  the percentage of acceptance: 70%"],
+         "context_set": ""
+        },
+
+
+        {"tag": "about_president",
+         "patterns": ["who is the president of FUE?", "the president of the university", "who is the president of future university?"],
+         "responses": ["DR.Ebada Sarhan"],
+         "context_set": ""
+        },
+        {"tag": "about_university",
+         "patterns": ["about the university", "i want to know information about the university", "What is the future university?",
+                "tell me about future university", "tell me about FUE"],
+         "responses": ["Future University in Egypt is a private university , was founded in 2006"],
+         "context_set": ""
+        },
+        {"tag": "about_partnerships",
+         "patterns": ["FUE partnerships", "what are future university partnerships?", "university partnerships", "what are the partnerships the university has?"],
+         "responses": ["Academic partnerships: (University of Cincinnati, University College Cork, Missouri University of Science and Technology, Nova Southeastern University, University of Latvia, Faculty of Business, Economics and Management, Louisiana State University, University of Maryland, University of Connecticut, School of Engineering, Southern Illinois University, Wright State University, University of New Mexico, Case Western Reserve University), Corporate partnerships: (Bavarian Auto Group, ASEA Brown Boveri, British Council, Schneider Electric"],
+         "context_set": ""
+        },
+        {"tag": "about_working_hours",
+         "patterns": ["working hours?", "the university working hours", "what are the working hours for the university?"],
+         "responses": ["(Tuesday 9AM-5PM), (Wednesday 9AM-5PM), (Thursday 9AM-5PM), (Friday Closed), (Saturday 9AM-5PM), (Sunday 9AM-5PM), (Monday 9AM-5PM)"],
+         "context_set": ""
+        },
+        {"tag": "about_faculties",
+         "patterns": ["How many faculties are in FUE", "I want to know number of faculties in FUE"],
+         "responses": ["(Faculty of Pharmacy), (Faculty of Oral & Dental Medicine), (Faculty of Engineering & Technology), (Faculty of Economics & Political Science), (Faculty of Computers & Information Technology), (Faculty of Commerce & Business Administratio)"],
+         "context_set": ""
+        },
+        {"tag": "when_founded",
+         "patterns": ["when future university established?", "when FUE founded?", "when is the future university founded?", "when is the university founded?"],
+         "responses": ["The university established in 2006.", "FUE was established in 2006"],
+         "context_set": ""
+        },
+
+
+        {"tag": "faculty_price",
+         "patterns": ["faculties price in fue", "i want to know the prices in fue", "prices of faculties"],
+         "responses": ["here is the prices: (computer science: 1400$+65000EG), (Engineering: 1500$+70000EG), (Pharmacy: 1400$+80000EG), (Oral and Dental Medicine: 1400$+120000EG), (Political: 14000$+40000EG), (Business: 14000$+50000EG)"],
+         "context_set": ""
+        },
+        {"tag": "cs_price",
+         "patterns": ["what is the price of computer science", "i want to know the price in computers and information technology", "price for faculty of computers and information technology",
+              "computer science price"],
+         "responses": ["here is the prices: 1400$+65000EG"],
+         "context_set": ""
+        },
+        {"tag": "en_price",
+         "patterns": ["what is the price of engineering", "i want to know the price in engineering and technology", "price for faculty of engineering and technology",
+              "engineering price"],
+         "responses": ["here is the prices: 1500$+70000EG"],
+         "context_set": ""
+        },
+        {"tag": "ph_price",
+         "patterns": ["what is the price of pharmacy", "i want to know the price in pharmacy", "price for faculty of pharmacy",
+              "pharmacy price"],
+         "responses": ["here is the prices: 1400$+80000EG"],
+         "context_set": ""
+        },
+        {"tag": "buss_price",
+         "patterns": ["what is the price of business", "i want to know the price in commerce and business administration", "price for faculty of commerce and business administration",
+              "business price"],
+         "responses": ["here is the prices: 14000$+50000EG"],
+         "context_set": ""
+        },
+        {"tag": "pol_price",
+         "patterns": ["what is the price of political", "i want to know the price in economics and political Science", "price for faculty of economics and political Science",
+              "political Science price"],
+         "responses": ["here is the prices: 14000$+40000EG"],
+         "context_set": ""
+        },
+        {"tag": "oral_price",
+         "patterns": ["what is the price of oral", "i want to know the price in oral and dental medicine", "price for faculty of oral and dental medicine",
+              "oral and dental price"],
+         "responses": ["here is the prices: 1400$+120000EG"],
+         "context_set": ""
+        },
+
+
+        {"tag": "study_years",
+         "patterns": ["how many study years in fue", "how many years to study in oral & dental medicine", "study years in engineering", "study years in political", "what is the years of study in fue"],
+         "responses": ["(computer science: 4), (Engineering: 5), (Pharmacy: 4), (Oral and Dental Medicine: 6), (Political: 4), (Business: 4)"],
+         "context_set": ""
+        },
+        {"tag": "cs_study_years",
+         "patterns": ["how many study years in computer science", "how many years to study in computers and information technology",
+              "study years in faculty of computers and information technology"],
+         "responses": ["4 years"],
+         "context_set": ""
+        },
+        {"tag": "en_study_years",
+         "patterns": ["how many study years in engineering", "how many years to study in engineering and technology",
+              "study years in faculty of engineering and technology"],
+         "responses": ["5 years"],
+         "context_set": ""
+        },
+        {"tag": "ph_study_years",
+         "patterns": ["how many study years in pharmacy", "how many years to study in pharmacy",
+              "study years in faculty of pharmacy"],
+         "responses": ["4 years"],
+         "context_set": ""
+        },
+        {"tag": "buss_study_years",
+         "patterns": ["how many study years in business", "how many years to study in commerce and business administration",
+              "study years in faculty of commerce and business administration"],
+         "responses": ["4 years"],
+         "context_set": ""
+        },
+        {"tag": "pol_study_years",
+         "patterns": ["how many study years in political", "how many years to study in economics and political Science",
+              "study years in faculty of economics and political Science", "political Science study years"],
+         "responses": ["4 years"],
+         "context_set": ""
+        },
+        {"tag": "oral_study_years",
+         "patterns": ["how many study years in oral", "how many years to study in oral and dental medicine",
+              "study years in faculty of oral and dental medicine", "dental study years"],
+         "responses": ["6 years"],
+         "context_set": ""
+        },
+
+
+        {"tag": "fue_location",
+         "patterns": ["where is fue located", "tell me the location of future university in egypt"],
+         "responses": ["Future unitverstiy is located in 90 street, New Cairo next to American universtiy."],
+         "context_set": ""
+        },
+        {"tag": "cs_location",
+         "patterns": ["where is computer science located", "tell me the location of computer science",
+              "location of computers and information technology", "faculty of computers and information technology location"],
+         "responses": [""],
+         "context_set": ""
+        },
+        {"tag": "en_location",
+         "patterns": ["where is engineering located", "tell me the location of engineering",
+              "location of engineering and technology", "faculty of engineering and technology location"],
+         "responses": [""],
+         "context_set": ""
+        },
+        {"tag": "ph_location",
+         "patterns": ["where is pharmacy located", "tell me the location of pharmacy", "faculty of pharmacy location"],
+         "responses": [""],
+         "context_set": ""
+        },
+        {"tag": "buss_location",
+         "patterns": ["where is business located", "tell me the location of business",
+              "location of commerce and business administration", "faculty of commerce and business administration location"],
+         "responses": [""],
+         "context_set": ""
+        },
+        {"tag": "pol_location",
+         "patterns": ["where is political located", "tell me the location of political Science",
+              "location of economics and political Science", "faculty of economics and political Science location"],
+         "responses": [""],
+         "context_set": ""
+        },
+        {"tag": "oral_location",
+         "patterns": ["where is oral located", "tell me the location of oral and dental",
+              "location of oral and dental medicine", "faculty of oral and dental medicine location"],
+         "responses": [""],
+         "context_set": ""
+        },
+
+
+
+
+        
+        {"tag": "",
+         "patterns": [],
+         "responses": [],
+         "context_set": ""
+        }
+   ]
+}
